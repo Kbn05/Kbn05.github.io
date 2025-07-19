@@ -18,19 +18,19 @@ body {
 }
 
 .intro {
-    display: flex; /* Usa flexbox para dividir en dos columnas */
-    align-items: center; /* Alinea verticalmente */
-    justify-content: center; /* Distribuye los elementos */
-    width: 100%; /* Ocupa todo el ancho */
-    padding: 50px 10%; /* Espaciado interno */
-    box-sizing: border-box; /* Asegura que padding no afecte el ancho total */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 10%;
+    box-sizing: border-box;
 }
 
 .intro img {
-    width: 30%; /* Imagen ocupa la mitad del contenedor */
-    max-width: 100%; /* Asegura que la imagen no se pase del tamaño del contenedor */
-    height: auto; /* Mantiene la proporción */
-    object-fit: cover; /* Ajusta la imagen para llenar su espacio */
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 10%;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .intro-text p {
-    margin: 5px 0; /* Espaciado entre los párrafos */
+    margin: 5px 0;
 }
 
 .about-me {
@@ -80,7 +80,7 @@ body {
     justify-items: center;
     padding: 0;
     margin: 0;
-    list-style: none; /* Si también quieres eliminar los bullets */
+    list-style: none;
 }
 
 .tool{
@@ -242,7 +242,7 @@ body {
 .repo-button a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #24292e; /* Color de GitHub */
+  background-color: #24292e;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
@@ -251,7 +251,7 @@ body {
 }
 
 .repo-button a:hover {
-  background-color: #0366d6; /* Un azul más vivo */
+  background-color: #0366d6;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -302,16 +302,16 @@ body {
 
 @media (max-width: 768px) {
     .intro {
-        flex-direction: column; /* Apila los elementos en pantallas pequeñas */
-        text-align: center; /* Centra el texto */
+        flex-direction: column;
+        text-align: center;
     }
 
     .intro img {
-        width: 80%; /* Imagen más pequeña en móviles */
+        width: 80%;
     }
 
     .intro-text {
-        width: 100%; /* Texto ocupa todo el ancho */
+        width: 100%;
         padding: 20px 0;
     }
 
